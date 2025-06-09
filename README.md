@@ -1,6 +1,6 @@
 # Cid
 
-Cid is a simple theme for static site generator, [Pelican][pelican]. 
+Cid is a simple theme for static site generator, [Pelican][pelican]. Demo: [my site](http://hndr.me).
 
 ## Features summary:
 * Disqus comment. `DISQUS_SITENAME` must be defined in configuration file.
@@ -39,14 +39,6 @@ If `CONTACT_EMAIL` is configured, the theme will display the email address in a 
 the email address will be printed through a Javascript ROT13 function in order to obfuscate the email addres.
 This means the email address won't be displayed if the site visitor doesn't have Javascript enabled.
 
-This feature requires a plugin that is included with the theme. The plugin needs to be enabled in order to
-use the theme.
-
-```
-PLUGIN_PATHS = ['./path/to/themes/pelican-cid/plugins']
-PLUGINS = ['cid_filters']
-```
-
 ## Contacts Links
 Additional contact information can be displayed in the same way as the custom menu item/ pages links. To use it,
 define a `CONTACTS` tuple in the configuration file.
@@ -62,7 +54,7 @@ live reload server and auto-compile. Note that the you would still need to have 
 installed. The `design` directory contains the static HTML draft that I used to help me decide on
 the design, the contents are no longer used and it is not kept updated to any design changes.
 
-# LICENSE
+#LICENSE
 MIT
 
 [pelican]: http://getpelican.com
